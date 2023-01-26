@@ -33,7 +33,7 @@ The constraint for guaranteeing that one charger is only assigned to one task at
 time all overlapping pairs are summed and an inequality constraint less than or
 equal to one is set for all overlapping pairs. Tasks are defined as overlapping
 if the $t_{s,j}$ or $t_{e,j} is in between the times for task j + 1. In
-mathematical terms $(t_{s,j + 1} \leq t_{s,j} \leq t_{e,j +1}) \lor t_{s,j + 1} \leq t_{e,j} \leq t_{e,j+1}.
+mathematical terms $(t_{s,j + 1} \leq t_{s,j} \leq t_{e,j +1}) \lor t_{s,j + 1} \leq t_{e,j} \leq t_{e,j+1}$ .
 
 The overall optimization problem can then beformatted as the following
 
