@@ -35,7 +35,7 @@ equal to one is set for all overlapping pairs. Tasks are defined as overlapping
 if the $t_{s,j}$ or $t_{e,j} is in between the times for task j + 1. In
 mathematical terms $(t_{s,j + 1} \leq t_{s,j} \leq t_{e,j +1}) \lor t_{s,j + 1} \leq t_{e,j} \leq t_{e,j+1}$ .
 
-The overall optimization problem can then beformatted as the following
+The overall optimization problem can then be formulated as the following
 
 ![opt_form](https://user-images.githubusercontent.com/93363769/214747838-501b054a-7293-4bec-8bae-4980448c4e34.jpg)
 
